@@ -59,7 +59,7 @@ int main()
 // The Indexes that result to 11 are 3 4 
 
 
-// LEETCODE BETTER
+// LEETCODE OPTIMAL
 
 
 // class Solution {
