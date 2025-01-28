@@ -57,3 +57,11 @@ int main()
 
     return 0;
 }
+
+
+// OUTPUT
+// Enter the size of the array: 
+// Enter the array elements:
+// The array elements are:
+// 2 3 3 3 -4 2 3 -30 3 4 
+// Maximum subarray sum is: 12
