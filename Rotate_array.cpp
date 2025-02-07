@@ -19,7 +19,7 @@ void rrotate(int arr[], int n, int d)
     }
 
     // Step 3: Copy the elements from temp to the end of the array
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < d; i++) 
     {
         arr[n - d + i] = temp[i];
     }
@@ -57,3 +57,11 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+
+// Enter the size of the array: 
+// Enter the number of rotations: Your Original Array is: 
+// 8 6 7 2 4 3 5 1 
+// Your Rotated Array is: 
+// 2 4 3 5 1 8 6 7 
